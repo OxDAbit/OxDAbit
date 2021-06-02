@@ -2,7 +2,7 @@
 
 - I’m currently working on a Raspberry and ESP projects
 - I’m currently learning everything 🤣
-- Transforming ☕, 🍺 and 🎵 into code since 1984
+- Transforming ☕, 🍺  and 🎵 into code since 1984
 
 ### Connect with me:
 
