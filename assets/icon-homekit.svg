@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 256 256" role="img" aria-label="HomeKit">
+  <title>HomeKit</title>
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none" stroke="#FF9F0A" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M52 124 128 58l76 66v78a8 8 0 0 1-8 8H60a8 8 0 0 1-8-8z" stroke-width="16"/>
+    <path d="M88 138 128 104l40 34v42H88z" stroke-width="12"/>
+    <rect x="116" y="148" width="24" height="24" rx="3" stroke-width="10"/>
+  </g>
+</svg>

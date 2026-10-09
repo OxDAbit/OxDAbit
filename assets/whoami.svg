@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="960" height="420" role="img" aria-labelledby="title desc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
+  <title id="title">David Álvarez (0xDA_bit) — IoT Engineer</title>
+  <desc id="desc">Terminal card: David Álvarez, IoT Engineer in Barcelona, Spain, open to remote or hybrid roles. Expertise: IoT with ESP32, ESP-IDF and Apple HomeKit; embedded hardware and software: industrial embedded Linux, Docker, Kubernetes and Raspberry Pi; software in C, C++, Python, TypeScript and Go. 15+ years in IoT.</desc>
+  <defs>
+    <linearGradient id="aqua" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#5AA9E6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- window -->
+  <rect width="960" height="420" rx="18" fill="#0D1526"/>
+  <rect x="9" y="9" width="942" height="402" rx="13" fill="none" stroke="url(#aqua)" stroke-width="2"/>
+  <circle cx="35" cy="35" r="5" fill="#FF5F57"/>
+  <circle cx="54" cy="35" r="5" fill="#FEBC2E"/>
+  <circle cx="73" cy="35" r="5" fill="#28C840"/>
+  <text x="98" y="40" fill="#6B7A93" font-size="14">0xDA_bit  ·  profile shell  ·  online</text>
+  <path d="M29 58H931" stroke="#22344F"/>
+
+  <!-- left: whoami -->
+  <rect x="29" y="78" width="594" height="301" rx="9" fill="#0F1A2E" stroke="#2DD4BF" stroke-width="1.5"/>
+  <text x="48" y="111" fill="#5EEAD4" font-size="20" font-weight="700">❯ whoami</text>
+  <text x="48" y="143" font-size="18" xml:space="preserve"><tspan fill="#C8D3E6">david_alvarez</tspan><tspan fill="#6B7A93">  —  </tspan><tspan fill="#F2C879">IoT Engineer</tspan></text>
+
+  <path d="M48 166H604" stroke="#22344F"/>
+  <text x="48" y="196" font-size="16" xml:space="preserve"><tspan fill="#6B7A93">context:  </tspan><tspan fill="#5AA9E6">Barcelona, Spain · remote / hybrid</tspan></text>
+  <text x="48" y="225" font-size="16" xml:space="preserve"><tspan fill="#6B7A93">mission:  </tspan><tspan fill="#5EEAD4">hardware that talks, firmware that lasts</tspan></text>
+
+  <text x="48" y="267" fill="#5EEAD4" font-size="20" font-weight="700">❯ ls expertise/</text>
+  <text x="48" y="299" font-size="15" xml:space="preserve"><tspan fill="#5AA9E6">iot/        </tspan><tspan fill="#C8D3E6">ESP32 · ESP-IDF · HomeKit</tspan></text>
+  <text x="48" y="324" font-size="15" xml:space="preserve"><tspan fill="#5AA9E6">embedded/   </tspan><tspan fill="#C8D3E6">Industrial Linux · Docker · K8s · Raspberry Pi</tspan></text>
+  <text x="48" y="349" font-size="15" xml:space="preserve"><tspan fill="#5AA9E6">software/   </tspan><tspan fill="#C8D3E6">C · C++ · Python · TypeScript · Go</tspan></text>
+
+  <!-- right: device status -->
+  <rect x="651" y="78" width="280" height="301" rx="9" fill="#0F1A2E" stroke="#2DD4BF" stroke-width="1.5"/>
+  <text x="674" y="111" fill="#F2C879" font-size="16">device.status</text>
+
+  <!-- MCU module -->
+  <g stroke="#5AA9E6" stroke-width="2" stroke-linecap="round">
+    <path d="M726 152H738M726 168H738M726 184H738M726 200H738M726 216H738"/>
+    <path d="M844 152H856M844 168H856M844 184H856M844 200H856M844 216H856"/>
+  </g>
+  <rect x="738" y="136" width="106" height="96" rx="6" fill="#0D1526" stroke="#5AA9E6" stroke-width="2"/>
+  <path d="M752 150h22v12h-22zM752 150v-6m8 6v-6m8 6v-6" fill="none" stroke="#34445E" stroke-width="1.5"/>
+  <text x="791" y="196" fill="#C8D3E6" font-size="15" font-weight="700" text-anchor="middle">ESP32</text>
+  <text x="791" y="216" fill="#6B7A93" font-size="10" text-anchor="middle">WROOM · 2.4 GHz</text>
+  <circle cx="828" cy="150" r="4" fill="#5EEAD4" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;1;.15;1" keyTimes="0;.6;.8;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- radio waves -->
+  <g fill="none" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round">
+    <path d="M866 134a14 14 0 0 1 0 20" opacity=".9"><animate attributeName="opacity" values=".2;1;.2" dur="1.6s" repeatCount="indefinite"/></path>
+    <path d="M874 126a26 26 0 0 1 0 36" opacity=".6"><animate attributeName="opacity" values=".2;1;.2" dur="1.6s" begin=".2s" repeatCount="indefinite"/></path>
+    <path d="M882 118a38 38 0 0 1 0 52" opacity=".3"><animate attributeName="opacity" values=".2;1;.2" dur="1.6s" begin=".4s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- telemetry trace -->
+  <path d="M674 268H710l8-18 10 34 9-26 7 10H776l8-18 10 34 9-26 7 10H842l8-18 10 34 9-26 7 10H908" fill="none" stroke="#5EEAD4" stroke-width="2" filter="url(#glow)" stroke-dasharray="560" stroke-dashoffset="560">
+    <animate attributeName="stroke-dashoffset" values="560;0;0" keyTimes="0;.7;1" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+
+  <text x="674" y="324" font-size="14" xml:space="preserve"><tspan fill="#6B7A93">uptime: </tspan><tspan fill="#C8D3E6">15+ yrs in IoT</tspan></text>
+  <text x="674" y="349" font-size="14" xml:space="preserve"><tspan fill="#6B7A93">status: </tspan><tspan fill="#5EEAD4">connected · building</tspan></text>
+</svg>
