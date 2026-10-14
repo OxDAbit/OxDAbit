@@ -14,8 +14,7 @@
 - **Industrial embedded Linux** — image-based systems and containerized services with Docker and Kubernetes
 - **Embedded hardware & software** — Raspberry Pi, smart home and AI
 - **Languages** — C, C++, Python, Bash, Go, Java, TypeScript, React · learning Rust
-
-B.Eng. in Industrial Electronics Engineering
+- **Education** — B.Eng. in Industrial Electronics Engineering
 
 ---
 
